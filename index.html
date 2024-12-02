@@ -27,7 +27,7 @@
         }
 
         a:hover {
-            color: #005bb5;
+            color: #141314;
         }
 
         /* Header */
@@ -60,9 +60,9 @@
             font-weight: bold;
         }
 
-        nav a:hover {
+        /* nav a:hover {
             text-decoration: underline;
-        }
+        } */
 
         /* Section */
         section {
@@ -151,7 +151,6 @@
         /* Individual project card styling */
         .card {
             width: 30%;
-            /* Adjust the width according to your design */
             box-sizing: border-box;
             background-color: #fff;
             padding: 20px;
@@ -162,7 +161,6 @@
             flex-direction: column;
             justify-content: space-between;
             min-height: 400px;
-            /* Ensures all cards have the same minimum height */
         }
 
         /* Title of the project */
@@ -187,7 +185,6 @@
                 width: 100%;
             }
         }
-
 
         /* Skills Section */
         #skills ul {
@@ -249,10 +246,11 @@
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>Hi! I'm Mansura, a machine learning enthusiast passionate about building solutions to real-world problems
-                using data-driven techniques. I am specialize in supervised learning, feature engineering, and
-                predictive modeling. And I'm eager to contribute to impactful projects and grow as a Machine Learning
-                Engineer.</p>
+            <p>Hi! I am Mansura, a Machine Learning enthusiast with experience in supervised learning, deep learning,
+                and data science. I enjoy building predictive models and leveraging data to solve real-world problems.
+                I am passionate about advancing ML applications and dedicated to continuous learning and creating
+                impactful solutions.
+            </p>
         </div>
     </section>
 
@@ -263,66 +261,81 @@
             <div class="project-grid">
                 <!-- Project 1 -->
                 <div class="project-card">
-                    <img src="imgs/HBVR.PNG" alt="Handwritten Bengali Recognition">
+                    <img src="HBVR.PNG" alt="Handwritten Bengali Recognition">
                     <h3>Handwritten Bengali Vowel Recognition [Thesis]</h3>
                     <p>Recognizing Bengali vowels from handwritten images using few-shot learning.</p>
-                    <p><strong>Details:</strong>
+                    <p>
+                        <strong>Details:</strong>
                         Trained a Prototypical Network using only 55 labeled images with data augmentation techniques.
                         Achieved accurate classification of Bengali vowels using HOG features.
                     </p>
-                    <p><strong>Algorithms Used:</strong> Prototypical Networks, HOG (Histogram of Oriented Gradients)
+                    <p>
+                        <strong>Algorithms Used:</strong> 
+                        Prototypical Networks, HOG (Histogram of Oriented Gradients)
                     </p>
                     <a href="#">View on GitHub</a>
                 </div>
                 <!-- Project 2 -->
                 <div class="project-card">
-                    <img src="imgs/IGFFI.PNG" alt="Ingredients Generation">
+                    <img src="IGFFI.PNG" alt="Ingredients Generation">
                     <h3>Ingredients Generation from Food Images</h3>
                     <p>Generating the main food ingredients from a food image using deep learning models.</p>
-                    <p><strong>Details:</strong>
+                    <p>
+                        <strong>Details:</strong>
                         Used ResNet-50 for feature extraction and trained a custom FoodGenerator neural network. Built a
                         Streamlit interface for interactive prediction.
                     </p>
-                    <p><strong>Algorithms Used:</strong> ResNet-50, FoodGenerator Neural Network (a custom neural network)</p>
+                    <p>
+                        <strong>Algorithms Used:</strong> 
+                        ResNet-50, FoodGenerator Neural Network (a custom neural network)
+                    </p>
                     <a href="#">View on GitHub</a>
                 </div>
                 <!-- Project 3 -->
                 <div class="project-card">
-                    <img src="imgs/ERFS.jpeg" alt="Emotion Recognition from Speech">
+                    <img src="ERFS.jpeg" alt="Emotion Recognition from Speech">
                     <h3>Emotion Recognition from Speech </h3>
                     <p>Classifying emotions like happiness, anger, and sadness from speech using deep learning
                         techniques.</p>
-                    <p><strong>Details:</strong>
-                        Extracted MFCC features from speech and used an LSTM model for emotion classification with a
-                        good accuracy. The model was trained using a large dataset of audio samples.
+                    <p>
+                        <strong>Details:</strong>
+                        Extracted MFCC features from speech and used an LSTM model for emotion classification.
+                        The model was trained using a large dataset of audio samples.
                     </p>
-                    <p><strong>Algorithms Used:</strong> LSTM (Long Short-Term Memory), MFCC (Mel-frequency cepstral coefficients)</p>
+                    <p>
+                        <strong>Algorithms Used:</strong> 
+                        LSTM (Long Short-Term Memory), MFCC (Mel-frequency cepstral coefficients)
+                    </p>
                     <a href="https://github.com/Mansura28/Emotion-Recognition-from-Speech">View on GitHub</a>
                 </div>
                 <!-- Project 4 -->
                 <div class="project-card">
-                    <img src="imgs/HDP.jpg" alt="Heart Disease Prediction">
+                    <img src="HDP.jpg" alt="Heart Disease Prediction">
                     <h3>Heart Disease Prediction</h3>
                     <p>Predicting the likelihood of heart disease based on patient data using machine learning
                         algorithms.</p>
-                    <p><strong>Details:</strong>
+                    <p>
+                        <strong>Details:</strong>
                         Developed a text-based interface that allows users to input health data. The model predicts
                         heart disease risks using Logistic Regression, KNN, and SVM algorithms.
                     </p>
-                    <p><strong>Algorithms Used:</strong> Logistic Regression, KNN (K-Nearest Neighbors), SVM (Support
-                        Vector Machine)</p>
+                    <p><strong>Algorithms Used:</strong> 
+                        Logistic Regression, KNN (K-Nearest Neighbors), SVM (Support Vector Machine)
+                    </p>
                     <a href="#">View on GitHub</a>
                 </div>
                 <!-- Project 5 -->
                 <div class="project-card">
-                    <img src="imgs/CSM.jpg" alt="Credit Scoring Model">
+                    <img src="CSM.jpg" alt="Credit Scoring Model">
                     <h3>Credit Scoring Model</h3>
                     <p>Predicting loan outcomes based on financial data and classifying them as "good" or "bad".</p>
                     <p><strong>Details:</strong>
-                        Developed a logistic regression model to predict loan outcomes. In order to find a balance 
+                        Developed a logistic regression model to predict loan outcomes. In order to find a balance
                         between profitability and risk when approving a loan, decile analysis is used.
                     </p>
-                    <p><strong>Algorithms Used:</strong> Logistic Regression, Decile Analysis <br> <br></p>
+                    <p><strong>Algorithms Used:</strong> 
+                        Logistic Regression, Decile Analysis <br> <br>
+                    </p>
                     <a href="https://github.com/Mansura28/Credit-Scoring-Model">View on GitHub</a>
                 </div>
             </div>
@@ -356,7 +369,7 @@
     <section id="resume" class="container">
         <h2>Resume</h2>
         <p>Check my resume to learn more about my educational background and experiences.</p>
-        <a href="assets/Mansura%20Mokbul_Resume.pdf" target="_blank" style="color: #0073e6;">Click here for my Resume</a>
+        <a href="Mansura%20Mokbul_Resume.pdf" target="_blank" style="color: #0073e6;">Click here for my Resume</a>
     </section>
 
     <!-- Contact Section -->
